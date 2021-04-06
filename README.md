@@ -11,11 +11,11 @@ Yes, this little script overwrites **EVERY USB MASS STORAGE DEVICE PLUGGED INTO 
 
 as root:
 ```sh
-$ ./writer.sh <DISK IMAGE>
+# ./writer.sh <DISK IMAGE>
 ```
 example:
 ```sh
-$ ./writer.sh ExamOS-crypto.img
+# ./writer.sh ExamOS-crypto.img
 ```
 
 The process should be autopilot until all the USB sticks have been written. After sticks have been written, remove USB sticks one by one. The script will tell you whether the writing of that removed stick was successful or not.
